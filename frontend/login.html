@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="js/camera.js"></script>
+    <script type="module" src="js/login.js"></script>
+
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96 text-center">
+        <h1 class="text-2xl font-bold mb-6 text-gray-800">Login</h1>
+        <button id="activateButton" class="bg-blue-500 text-white py-2 px-4 rounded-lg mb-4 hover:bg-blue-600 transition duration-300">
+            <i class="fas fa-camera"></i> Activate Camera
+        </button>
+        <div class="relative mb-4">
+            <video id="video" class="w-full h-64 bg-gray-200 rounded-lg" autoplay></video>
+        </div>
+        <button id="captureButton_login" class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition duration-300">
+            <i class="fas fa-sign-in-alt"></i> Login
+        </button>
+        <canvas id="canvas" class="hidden"></canvas>
+    </div>
+</body>
+</html>

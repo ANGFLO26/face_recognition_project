@@ -1,0 +1,44 @@
+2024-11-28 12:16:21,822 - WARNING -  * Debugger is active!
+2024-11-28 12:16:21,823 - INFO -  * Debugger PIN: 400-879-309
+2024-11-28 12:16:21,997 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:21] "[36mGET /register.html HTTP/1.1[0m" 304 -
+2024-11-28 12:16:21,998 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:21] "[36mGET /login.html HTTP/1.1[0m" 304 -
+2024-11-28 12:16:21,998 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:21] "[36mGET / HTTP/1.1[0m" 304 -
+2024-11-28 12:16:22,072 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:22] "[36mGET /js/camera.js HTTP/1.1[0m" 304 -
+2024-11-28 12:16:22,077 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:22] "[36mGET /js/register.js HTTP/1.1[0m" 304 -
+2024-11-28 12:16:27,241 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:27] "[36mGET / HTTP/1.1[0m" 304 -
+2024-11-28 12:16:27,256 - INFO - Registering user: taiphan...
+2024-11-28 12:16:27,257 - INFO - Extracting face vector...
+2024-11-28 12:16:27,290 - INFO - Image saved to temp/register/20241128_121627.jpg
+2024-11-28 12:16:27,962 - INFO - Face vector extracted successfully.
+2024-11-28 12:16:27,994 - ERROR - Face is already registered under username 'a'.
+2024-11-28 12:16:27,995 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:27] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+2024-11-28 12:16:28,605 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:28] "GET /js/camera.js HTTP/1.1" 200 -
+2024-11-28 12:16:29,585 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:29] "GET /login.html HTTP/1.1" 200 -
+2024-11-28 12:16:29,606 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:29] "[36mGET /js/camera.js HTTP/1.1[0m" 304 -
+2024-11-28 12:16:29,607 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:29] "[36mGET /js/login.js HTTP/1.1[0m" 304 -
+2024-11-28 12:16:31,372 - INFO - Authenticating user...
+2024-11-28 12:16:31,376 - ERROR - Not enough classes to authenticate. Please register more users.
+2024-11-28 12:16:31,376 - INFO - 127.0.0.1 - - [28/Nov/2024 12:16:31] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-11-28 12:18:58,982 - INFO -  * Detected change in '/home/phanvantai/Documents/THREE_YEARS/MACHINE_LEARNING/THE_END/backend/model.py', reloading
+2024-11-28 12:19:07,562 - WARNING -  * Debugger is active!
+2024-11-28 12:19:07,564 - INFO -  * Debugger PIN: 400-879-309
+2024-11-28 12:19:07,759 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:07] "[36mGET / HTTP/1.1[0m" 304 -
+2024-11-28 12:19:07,761 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:07] "[36mGET /register.html HTTP/1.1[0m" 304 -
+2024-11-28 12:19:07,818 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:07] "[36mGET /js/camera.js HTTP/1.1[0m" 304 -
+2024-11-28 12:19:07,888 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:07] "[36mGET /js/camera.js HTTP/1.1[0m" 304 -
+2024-11-28 12:19:07,899 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:07] "[36mGET /js/register.js HTTP/1.1[0m" 304 -
+2024-11-28 12:19:13,667 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:13] "[36mGET / HTTP/1.1[0m" 304 -
+2024-11-28 12:19:13,680 - INFO - Registering user: b...
+2024-11-28 12:19:13,681 - INFO - Extracting face vector...
+2024-11-28 12:19:13,719 - INFO - Image saved to temp/register/20241128_121913.jpg
+2024-11-28 12:19:14,393 - INFO - Face vector extracted successfully.
+2024-11-28 12:19:14,413 - ERROR - Face is already registered under username 'a'.
+2024-11-28 12:19:14,414 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:14] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+2024-11-28 12:19:14,814 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:14] "[36mGET /js/camera.js HTTP/1.1[0m" 304 -
+2024-11-28 12:19:15,979 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:15] "[36mGET /login.html HTTP/1.1[0m" 304 -
+2024-11-28 12:19:15,998 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:15] "[36mGET /js/camera.js HTTP/1.1[0m" 304 -
+2024-11-28 12:19:16,003 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:16] "[36mGET /js/login.js HTTP/1.1[0m" 304 -
+2024-11-28 12:19:17,637 - INFO - Authenticating user...
+2024-11-28 12:19:17,642 - ERROR - Not enough classes to authenticate. Please register more users.
+2024-11-28 12:19:17,642 - INFO - 127.0.0.1 - - [28/Nov/2024 12:19:17] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-11-28 12:23:12,513 - INFO -  * Detected change in '/home/phanvantai/Documents/THREE_YEARS/MACHINE_LEARNING/THE_END/backend/model.py', reloading
