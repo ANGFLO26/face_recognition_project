@@ -15,6 +15,7 @@ model = FaceRecognitionModel()
 # Serve the index page
 @app.route("/")
 def serve_index():
+    model.retrain_model()
     return send_from_directory(app.static_folder, "index.html")
 
 @app.route("/main")
